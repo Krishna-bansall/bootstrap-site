@@ -1,0 +1,156 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #393e46;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#nav-bar {
+  background-color: #ff4c68;
+  font-size: 25px;
+  padding-bottom: 4rem;
+  padding-top: 0rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.dog-image {
+  position: absolute;
+  z-index: 0;
+  transform: rotate(25deg);
+  margin-left: 10%;
+  width: 65%;
+}
+
+#heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.download-btn {
+  margin: 2rem 1rem 0rem 0rem;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  padding: 7% 10%;
+  /* margin-top: 100px; */
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+  transition: 0.2s ease all;
+}
+
+.icon:hover {
+  color: #ff4c68;
+  transition: 0.2s ease all;
+}
+
+#testimonials {
+  text-align: center;
+  color: white;
+  background-color: #ef8172;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-style: none;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 16%;
+  margin: 20px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  color: #eee;
+  font-size: 3rem;
+  padding: 8% 16% 6%;
+}
+
+.cta-btn {
+  margin: 0% 2.2% 9% 0%;
+}
+
+#footer {
+  text-align: center;
+  padding: 10% 0% 2%;
+}
+
+.footer-icon {
+  margin: 0.8rem;
+}
+
+@media (max-width: 1028px) {
+  .dog-image {
+    position: static;
+    margin-top: 2rem;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
